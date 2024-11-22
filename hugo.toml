@@ -1,3 +1,37 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://github.com/MarcosCamp/Practica2_Hugo_Marcos/'
 languageCode = 'en-us'
 title = 'My New Hugo Site'
+theme="hugo-theme-stack"
+[params]
+logo = "/images/avatar_hu13739649187745961479.png"
+[menu]
+  [[menu.main]]
+    name = "Inicio"
+    url = "/"
+    weight = 1
+
+  [[menu.main]]
+    name = "Markdown"
+    url = "/markdown/"
+    weight = 2
+
+  [[menu.main]]
+    name = "Imagenes"
+    url = "/imagenes/"
+    weight = 3
+
+  [[menu.main]]
+    name = "Tv"
+    url = "/tv/"
+    weight = 4
+
+
+  [[menu.main]]
+    name = "Python"
+    url = "/python/"
+    weight = 5
+
+ [[menu.main]]
+    name = ""
+    url = "/vacio/"
+    weight = 6
