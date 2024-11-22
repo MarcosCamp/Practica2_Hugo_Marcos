@@ -1,4 +1,4 @@
-baseURL = 'https://github.com/MarcosCamp/Practica2_Hugo_Marcos/'
+baseURL = 'https://github.com/MarcosCamp/Practica2_Hugo_Marcos/docs'
 languageCode = 'en-us'
 title = 'My New Hugo Site'
 theme="hugo-theme-stack"
