@@ -1,4 +1,4 @@
-baseURL = 'https://marcoscamp.github.io/Practica2_Hugo_Marcos/docs/'
+baseURL = 'https://marcoscamp.github.io/Practica2_Hugo_Marcos/'
 languageCode = 'en-us'
 title = 'Inicio'
 theme="hugo-theme-stack"
@@ -34,3 +34,4 @@ logo = "/images/avatar_hu13739649187745961479.png"
     name = ""
     url = "/vacio/"
     weight = 5
+
