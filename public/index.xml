@@ -1,204 +1,135 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-    <channel>
-        <title>Marcos on Inicio</title>
-        <link>http://localhost:1313/Practica2_Hugo_Marcos/</link>
-        <description>Recent content in Marcos on Inicio</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>en-us</language>
-        <lastBuildDate>Mon, 14 Oct 2024 11:01:25 +0200</lastBuildDate><atom:link href="http://localhost:1313/Practica2_Hugo_Marcos/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>PlantillaJason</title>
-        <link>http://localhost:1313/Practica2_Hugo_Marcos/tv/</link>
-        <pubDate>Mon, 14 Oct 2024 11:01:25 +0200</pubDate>
-        
-        <guid>http://localhost:1313/Practica2_Hugo_Marcos/tv/</guid>
-        <description>&lt;p&gt;#Listado de de canales&lt;/p&gt;
-</description>
-        </item>
-        <item>
-        <title></title>
-        <link>http://localhost:1313/Practica2_Hugo_Marcos/markdown/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>http://localhost:1313/Practica2_Hugo_Marcos/markdown/</guid>
-        <description>&lt;h1 id=&#34;guía-básica-de-markdown&#34;&gt;Guía Básica de Markdown
-&lt;/h1&gt;&lt;p&gt;Markdown es un lenguaje de marcado ligero que permite formatear texto de manera sencilla. Es muy popular por su simplicidad y legibilidad, y se utiliza en muchas plataformas como GitHub, Reddit, y Hugo. A continuación, te muestro cómo usar Markdown para crear contenido bien estructurado y con formato.&lt;/p&gt;
-&lt;h2 id=&#34;1-markdown-básico&#34;&gt;1. Markdown Básico
-&lt;/h2&gt;&lt;h3 id=&#34;encabezados&#34;&gt;Encabezados
-&lt;/h3&gt;&lt;p&gt;Para crear encabezados, usa el símbolo &lt;code&gt;#&lt;/code&gt;. El número de &lt;code&gt;#&lt;/code&gt; determina el nivel del encabezado (de 1 a 6).&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;# Encabezado de Nivel 1
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;## Encabezado de Nivel 2
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;### Encabezado de Nivel 3
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;#### Encabezado de Nivel 4
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;##### Encabezado de Nivel 5
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;###### Encabezado de Nivel 6
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;font-weight:bold&#34;&gt;**Texto en negrita**&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;font-style:italic&#34;&gt;*Texto en cursiva*&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;~~Texto tachado~~&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;*&lt;/span&gt; Elemento 1
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;*&lt;/span&gt; Elemento 2
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;*&lt;/span&gt; Sub-elemento 1
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;*&lt;/span&gt; Sub-elemento 2
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;1.&lt;/span&gt; Primer ítem
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;2.&lt;/span&gt; Segundo ítem
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;3.&lt;/span&gt; Tercer ítem
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    [&lt;span style=&#34;color:#f92672&#34;&gt;Texto del enlace&lt;/span&gt;](&lt;span style=&#34;color:#a6e22e&#34;&gt;https://www.ejemplo.com&lt;/span&gt;)
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;![&lt;span style=&#34;color:#f92672&#34;&gt;Texto alternativo&lt;/span&gt;](&lt;span style=&#34;color:#a6e22e&#34;&gt;https://www.ejemplo.com/imagen.jpg&lt;/span&gt;)
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;![&lt;span style=&#34;color:#f92672&#34;&gt;Texto alternativo&lt;/span&gt;](&lt;span style=&#34;color:#a6e22e&#34;&gt;https://via.placeholder.com/150&lt;/span&gt;)
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;## cita
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;&amp;gt; &lt;/span&gt;&lt;span style=&#34;font-style:italic&#34;&gt;Esta es una cita.
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;font-style:italic&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;- [ ]&lt;/span&gt; Tarea 1
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;- [x]&lt;/span&gt; Tarea completada
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;- [ ]&lt;/span&gt; Tarea 2
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;bloques-de-código&#34;&gt;Bloques de Código:
-&lt;/h2&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;def&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;saludo&lt;/span&gt;():
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    print(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;¡Hola Mundo!&amp;#34;&lt;/span&gt;)
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;pre class=&#34;mermaid&#34;&gt;graph LR
-    A[Idea] --&amp;gt; B[Planificación]
-    B --&amp;gt; C[Desarrollo]
-    C --&amp;gt; D[Pruebas]
-    D --&amp;gt; E[Implementación]
-  &lt;/pre&gt;&lt;pre class=&#34;mermaid&#34;&gt;classDiagram
-    class Tabla {
-        +Columna1 : Valor1
-        +Columna2 : Valor2
-        +Columna3 : Valor3
-    }
-  &lt;/pre&gt;</description>
-        </item>
-        <item>
-        <title></title>
-        <link>http://localhost:1313/Practica2_Hugo_Marcos/python/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>http://localhost:1313/Practica2_Hugo_Marcos/python/</guid>
-        <description>&lt;h1 id=&#34;estructuras-de-datos-en-python&#34;&gt;Estructuras de Datos en Python
-&lt;/h1&gt;&lt;p&gt;Las &lt;strong&gt;estructuras de datos&lt;/strong&gt; son una de las partes fundamentales en cualquier lenguaje de programación. En este módulo, exploraremos algunas de las estructuras de datos más comunes en &lt;strong&gt;Python&lt;/strong&gt;, como las listas, las tuplas, los diccionarios y los conjuntos. Cada una tiene características que las hacen útiles en diferentes situaciones.&lt;/p&gt;
-&lt;h2 id=&#34;1-listas-lists&#34;&gt;1. Listas (Lists)
-&lt;/h2&gt;&lt;p&gt;Las &lt;strong&gt;listas&lt;/strong&gt; son colecciones ordenadas, mutables y pueden contener elementos de diferentes tipos. Puedes agregar, eliminar y modificar elementos dentro de una lista.&lt;/p&gt;
-&lt;h3 id=&#34;características&#34;&gt;Características:
-&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;Ordenadas: Los elementos de una lista mantienen el orden en el que fueron agregados.&lt;/li&gt;
-&lt;li&gt;Mutables: Puedes cambiar el contenido de una lista después de haberla creado.&lt;/li&gt;
-&lt;li&gt;Pueden contener elementos duplicados.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;ejemplo&#34;&gt;Ejemplo:
-&lt;/h3&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# Crear una lista de números&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;numeros &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; [&lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;, &lt;span style=&#34;color:#ae81ff&#34;&gt;2&lt;/span&gt;, &lt;span style=&#34;color:#ae81ff&#34;&gt;3&lt;/span&gt;, &lt;span style=&#34;color:#ae81ff&#34;&gt;4&lt;/span&gt;, &lt;span style=&#34;color:#ae81ff&#34;&gt;5&lt;/span&gt;]
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# Agregar un número a la lista&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;numeros&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;append(&lt;span style=&#34;color:#ae81ff&#34;&gt;6&lt;/span&gt;)
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# Acceder a un elemento por su índice&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;print(numeros[&lt;span style=&#34;color:#ae81ff&#34;&gt;2&lt;/span&gt;])  &lt;span style=&#34;color:#75715e&#34;&gt;# Esto imprimirá el valor 3&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# Eliminar un elemento por su valor&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;numeros&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;remove(&lt;span style=&#34;color:#ae81ff&#34;&gt;4&lt;/span&gt;)
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# Imprimir la lista modificada&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;print(numeros)
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
-        </item>
-        <item>
-        <title></title>
-        <link>http://localhost:1313/Practica2_Hugo_Marcos/tablas/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>http://localhost:1313/Practica2_Hugo_Marcos/tablas/</guid>
-        <description>&lt;h2 id=&#34;tablas&#34;&gt;tablas:
-&lt;/h2&gt;&lt;table&gt;
-  &lt;thead&gt;
-      &lt;tr&gt;
-          &lt;th&gt;Columna 1&lt;/th&gt;
-          &lt;th&gt;Columna 2&lt;/th&gt;
-          &lt;th&gt;Columna 3&lt;/th&gt;
-      &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-      &lt;tr&gt;
-          &lt;td&gt;Fila 1&lt;/td&gt;
-          &lt;td&gt;Dato 1&lt;/td&gt;
-          &lt;td&gt;Dato 2&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;Fila 2&lt;/td&gt;
-          &lt;td&gt;Dato 3&lt;/td&gt;
-          &lt;td&gt;Dato 4&lt;/td&gt;
-      &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-&lt;table&gt;
-  &lt;thead&gt;
-      &lt;tr&gt;
-          &lt;th&gt;Left columns&lt;/th&gt;
-          &lt;th style=&#34;text-align: center&#34;&gt;Right columns&lt;/th&gt;
-      &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-      &lt;tr&gt;
-          &lt;td&gt;left foo&lt;/td&gt;
-          &lt;td style=&#34;text-align: center&#34;&gt;right foo&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;left bar&lt;/td&gt;
-          &lt;td style=&#34;text-align: center&#34;&gt;right bar&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;left baz&lt;/td&gt;
-          &lt;td style=&#34;text-align: center&#34;&gt;right baz&lt;/td&gt;
-      &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-</description>
-        </item>
-        <item>
-        <title>Galería de Imágenes</title>
-        <link>http://localhost:1313/Practica2_Hugo_Marcos/imagenes/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>http://localhost:1313/Practica2_Hugo_Marcos/imagenes/</guid>
-        <description>&lt;h2 id=&#34;bienvenidos-a-la-galería-de-imágenes-de-kyoto&#34;&gt;Bienvenidos a la galería de imágenes de Kyoto!
-&lt;/h2&gt;&lt;p&gt;A continuación, verás algunas fotos de Kyoto, Japón y mi viaje reciente.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/Practica2_Hugo_Marcos/Practica2_Hugo_Marcos/images/imagen1.jpg&#34;
-	
-	
-	
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;1&#34;
-	
-	
-&gt;
-&lt;img src=&#34;http://localhost:1313/Practica2_Hugo_Marcos/Practica2_Hugo_Marcos/images/imagen2.jpg&#34;
-	
-	
-	
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;2&#34;
-	
-	
-&gt;
-&lt;img src=&#34;http://localhost:1313/Practica2_Hugo_Marcos/Practica2_Hugo_Marcos/images/imagen3.jpg&#34;
-	
-	
-	
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;3&#34;
-	
-	
-&gt;&lt;/p&gt;
-</description>
-        </item>
-        
-    </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Marcos on Inicio</title><link>https://marcoscamp.github.io/Practica2_Hugo_Marcos/</link><description>Recent content in Marcos on Inicio</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 14 Oct 2024 11:01:25 +0200</lastBuildDate><atom:link href="https://marcoscamp.github.io/Practica2_Hugo_Marcos/index.xml" rel="self" type="application/rss+xml"/><item><title>PlantillaJason</title><link>https://marcoscamp.github.io/Practica2_Hugo_Marcos/tv/</link><pubDate>Mon, 14 Oct 2024 11:01:25 +0200</pubDate><guid>https://marcoscamp.github.io/Practica2_Hugo_Marcos/tv/</guid><description>&lt;p>#Listado de de canales&lt;/p></description></item><item><title/><link>https://marcoscamp.github.io/Practica2_Hugo_Marcos/markdown/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://marcoscamp.github.io/Practica2_Hugo_Marcos/markdown/</guid><description>&lt;h1 id="guía-básica-de-markdown">Guía Básica de Markdown
+&lt;/h1>&lt;p>Markdown es un lenguaje de marcado ligero que permite formatear texto de manera sencilla. Es muy popular por su simplicidad y legibilidad, y se utiliza en muchas plataformas como GitHub, Reddit, y Hugo. A continuación, te muestro cómo usar Markdown para crear contenido bien estructurado y con formato.&lt;/p>
+&lt;h2 id="1-markdown-básico">1. Markdown Básico
+&lt;/h2>&lt;h3 id="encabezados">Encabezados
+&lt;/h3>&lt;p>Para crear encabezados, usa el símbolo &lt;code>#&lt;/code>. El número de &lt;code>#&lt;/code> determina el nivel del encabezado (de 1 a 6).&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-markdown" data-lang="markdown">&lt;span style="display:flex;">&lt;span># Encabezado de Nivel 1
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">## Encabezado de Nivel 2
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">### Encabezado de Nivel 3
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#### Encabezado de Nivel 4
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">##### Encabezado de Nivel 5
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">###### Encabezado de Nivel 6
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="font-weight:bold">**Texto en negrita**&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="font-style:italic">*Texto en cursiva*&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">~~Texto tachado~~&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">*&lt;/span> Elemento 1
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">*&lt;/span> Elemento 2
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">*&lt;/span> Sub-elemento 1
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">*&lt;/span> Sub-elemento 2
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">1.&lt;/span> Primer ítem
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">2.&lt;/span> Segundo ítem
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">3.&lt;/span> Tercer ítem
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> [&lt;span style="color:#f92672">Texto del enlace&lt;/span>](&lt;span style="color:#a6e22e">https://www.ejemplo.com&lt;/span>)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>![&lt;span style="color:#f92672">Texto alternativo&lt;/span>](&lt;span style="color:#a6e22e">https://www.ejemplo.com/imagen.jpg&lt;/span>)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>![&lt;span style="color:#f92672">Texto alternativo&lt;/span>](&lt;span style="color:#a6e22e">https://via.placeholder.com/150&lt;/span>)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">## cita
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span>&lt;span style="color:#66d9ef">&amp;gt; &lt;/span>&lt;span style="font-style:italic">Esta es una cita.
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="font-style:italic">&lt;/span>&lt;span style="color:#66d9ef">- [ ]&lt;/span> Tarea 1
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">- [x]&lt;/span> Tarea completada
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">- [ ]&lt;/span> Tarea 2
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="bloques-de-código">Bloques de Código:
+&lt;/h2>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-python" data-lang="python">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">def&lt;/span> &lt;span style="color:#a6e22e">saludo&lt;/span>():
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> print(&lt;span style="color:#e6db74">&amp;#34;¡Hola Mundo!&amp;#34;&lt;/span>)
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;pre class="mermaid">graph LR
+A[Idea] --&amp;gt; B[Planificación]
+B --&amp;gt; C[Desarrollo]
+C --&amp;gt; D[Pruebas]
+D --&amp;gt; E[Implementación]
+&lt;/pre>&lt;pre class="mermaid">classDiagram
+class Tabla {
++Columna1 : Valor1
++Columna2 : Valor2
++Columna3 : Valor3
+}
+&lt;/pre></description></item><item><title/><link>https://marcoscamp.github.io/Practica2_Hugo_Marcos/python/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://marcoscamp.github.io/Practica2_Hugo_Marcos/python/</guid><description>&lt;h1 id="estructuras-de-datos-en-python">Estructuras de Datos en Python
+&lt;/h1>&lt;p>Las &lt;strong>estructuras de datos&lt;/strong> son una de las partes fundamentales en cualquier lenguaje de programación. En este módulo, exploraremos algunas de las estructuras de datos más comunes en &lt;strong>Python&lt;/strong>, como las listas, las tuplas, los diccionarios y los conjuntos. Cada una tiene características que las hacen útiles en diferentes situaciones.&lt;/p>
+&lt;h2 id="1-listas-lists">1. Listas (Lists)
+&lt;/h2>&lt;p>Las &lt;strong>listas&lt;/strong> son colecciones ordenadas, mutables y pueden contener elementos de diferentes tipos. Puedes agregar, eliminar y modificar elementos dentro de una lista.&lt;/p>
+&lt;h3 id="características">Características:
+&lt;/h3>&lt;ul>
+&lt;li>Ordenadas: Los elementos de una lista mantienen el orden en el que fueron agregados.&lt;/li>
+&lt;li>Mutables: Puedes cambiar el contenido de una lista después de haberla creado.&lt;/li>
+&lt;li>Pueden contener elementos duplicados.&lt;/li>
+&lt;/ul>
+&lt;h3 id="ejemplo">Ejemplo:
+&lt;/h3>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-python" data-lang="python">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e"># Crear una lista de números&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>numeros &lt;span style="color:#f92672">=&lt;/span> [&lt;span style="color:#ae81ff">1&lt;/span>, &lt;span style="color:#ae81ff">2&lt;/span>, &lt;span style="color:#ae81ff">3&lt;/span>, &lt;span style="color:#ae81ff">4&lt;/span>, &lt;span style="color:#ae81ff">5&lt;/span>]
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e"># Agregar un número a la lista&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>numeros&lt;span style="color:#f92672">.&lt;/span>append(&lt;span style="color:#ae81ff">6&lt;/span>)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e"># Acceder a un elemento por su índice&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>print(numeros[&lt;span style="color:#ae81ff">2&lt;/span>]) &lt;span style="color:#75715e"># Esto imprimirá el valor 3&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e"># Eliminar un elemento por su valor&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>numeros&lt;span style="color:#f92672">.&lt;/span>remove(&lt;span style="color:#ae81ff">4&lt;/span>)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e"># Imprimir la lista modificada&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>print(numeros)
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title/><link>https://marcoscamp.github.io/Practica2_Hugo_Marcos/tablas/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://marcoscamp.github.io/Practica2_Hugo_Marcos/tablas/</guid><description>&lt;h2 id="tablas">tablas:
+&lt;/h2>&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Columna 1&lt;/th>
+&lt;th>Columna 2&lt;/th>
+&lt;th>Columna 3&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Fila 1&lt;/td>
+&lt;td>Dato 1&lt;/td>
+&lt;td>Dato 2&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Fila 2&lt;/td>
+&lt;td>Dato 3&lt;/td>
+&lt;td>Dato 4&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Left columns&lt;/th>
+&lt;th style="text-align: center">Right columns&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>left foo&lt;/td>
+&lt;td style="text-align: center">right foo&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>left bar&lt;/td>
+&lt;td style="text-align: center">right bar&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>left baz&lt;/td>
+&lt;td style="text-align: center">right baz&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="comentario-para-obtener-enlace-actualizado">comentario para obtener enlace actualizado.
+&lt;/h2></description></item><item><title>Galería de Imágenes</title><link>https://marcoscamp.github.io/Practica2_Hugo_Marcos/imagenes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://marcoscamp.github.io/Practica2_Hugo_Marcos/imagenes/</guid><description>&lt;h2 id="bienvenidos-a-la-galería-de-imágenes-de-kyoto">Bienvenidos a la galería de imágenes de Kyoto!
+&lt;/h2>&lt;p>A continuación, verás algunas fotos de Kyoto, Japón y mi viaje reciente.&lt;/p>
+&lt;p>&lt;img src="https://marcoscamp.github.io/Practica2_Hugo_Marcos/Practica2_Hugo_Marcos/images/imagen1.jpg"
+loading="lazy"
+alt="1"
+>
+&lt;img src="https://marcoscamp.github.io/Practica2_Hugo_Marcos/Practica2_Hugo_Marcos/images/imagen2.jpg"
+loading="lazy"
+alt="2"
+>
+&lt;img src="https://marcoscamp.github.io/Practica2_Hugo_Marcos/Practica2_Hugo_Marcos/images/imagen3.jpg"
+loading="lazy"
+alt="3"
+>&lt;/p></description></item></channel></rss>
