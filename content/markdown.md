@@ -36,27 +36,31 @@ Para crear encabezados, usa el símbolo `#`. El número de `#` determina el nive
 
 ![Texto alternativo](https://via.placeholder.com/150)
 
-| Columna 1 | Columna 2 | Columna 3 |
-|-----------|-----------|-----------|
-| Fila 1    | Dato 1    | Dato 2    |
-| Fila 2    | Dato 3    | Dato 4    |
-
-`print("Hola Mundo")`
-
+## cita
 > Esta es una cita.
-
-
 - [ ] Tarea 1
 - [x] Tarea completada
 - [ ] Tarea 2
-https://www.ejemplo.com
 
-<p>Este es un párrafo en HTML.</p>
----
+```
+## Bloques de Código:
+```python
+def saludo():
+    print("¡Hola Mundo!")
 
-[mi-enlace]: https://www.ejemplo.com
-![mi-imagen]: https://via.placeholder.com/150
-
-[mi-enlace]
-![mi-imagen]
-
+```
+```mermaid 
+graph LR
+    A[Idea] --> B[Planificación]
+    B --> C[Desarrollo]
+    C --> D[Pruebas]
+    D --> E[Implementación]
+```
+```mermaid
+classDiagram
+    class Tabla {
+        +Columna1 : Valor1
+        +Columna2 : Valor2
+        +Columna3 : Valor3
+    }
+```
