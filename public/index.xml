@@ -120,7 +120,15 @@
 &lt;/table&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Esta es una cita.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Esta es una cita dentro de otra cita.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Esta es una tercera capa de cita.&lt;/p&gt;
 &lt;/blockquote&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Tarea 1&lt;/li&gt;
 &lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Tarea completada&lt;/li&gt;

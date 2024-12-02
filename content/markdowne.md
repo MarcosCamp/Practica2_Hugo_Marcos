@@ -12,6 +12,15 @@
 | left baz      | right baz     |
 
 > Esta es una cita.
+>> Esta es una cita dentro de otra cita.
+>>> Esta es una tercera capa de cita.
+
+<p style="color: red;">Este texto está en rojo.</p>
+
+<div style="display: flex;">
+    <div style="flex: 1; padding: 10px;">Columna 1</div>
+    <div style="flex: 1; padding: 10px;">Columna 2</div>
+</div>
 
 - [ ] Tarea 1
 - [x] Tarea completada

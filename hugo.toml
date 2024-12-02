@@ -39,8 +39,3 @@ logo = "/images/avatar_hu13739649187745961479.png"
     url = "/python/"
     weight = 6
 
- [[menu.main]]
-    name = "tablas markdown"
-    url = "/tablas/"
-    weight = 7
-
