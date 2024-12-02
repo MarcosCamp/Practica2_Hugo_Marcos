@@ -10,28 +10,37 @@ logo = "/images/avatar_hu13739649187745961479.png"
 [menu]
 
   [[menu.main]]
-    name = "Markdown"
-    url = "/markdown/"
+    name = "Markdown Basico"
+    url = "/markdownB/"
     weight = 1
 
   [[menu.main]]
+    name = "Markdown Extendido"
+    url = "/markdownE/"
+    weight = 2
+
+    [[menu.main]]
+    name = "Markdown Grafico"
+    url = "/markdownG/"
+    weight = 3
+  [[menu.main]]
     name = "Imagenes"
     url = "/imagenes/"
-    weight = 2
+    weight = 4
 
   [[menu.main]]
     name = "Tv"
     url = "/tv/"
-    weight = 3
+    weight = 5
 
 
   [[menu.main]]
     name = "Python"
     url = "/python/"
-    weight = 4
+    weight = 6
 
  [[menu.main]]
     name = "tablas markdown"
     url = "/tablas/"
-    weight = 5
+    weight = 7
 
